@@ -1,0 +1,15 @@
+//Helpers
+@import 'helpers/variable';
+//Components
+@import 'components/header';
+@import 'components/main-footer';
+@import 'components/main-nav';
+
+//Pages
+@import 'pages/home';
+@import 'pages/articleViews';
+@import 'pages/article';
+@import 'pages/contact';
+@import 'pages/forum';
+@import 'pages/signin';
+@import 'pages/register';

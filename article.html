@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Wi-Fi News</title>
+    <!-- FavIcon-->
+    <link rel="shortcut icon" type="image/png" href="" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap style-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!-- FontAwesome style-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- font  -->
+    <!-- <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet"> -->
+    <!-- font  -->
+    <!--Owl Carouse css-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!--AOS css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--Animate css-->
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <!-- Custom Style-->
+    <link rel="stylesheet" href="./css/checkbox.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Navigation  -->
+        <div class="article-view">
+            <div class="header-container">
+                <div class="main-nav">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand toggle-logo" href="./index.html">Wi-Fi News</a>
+                        <button class="navbar-toggler navbar-toggler-border" type="button" data-toggle="collapse"
+                            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class=""><img src="./assets/images/Group 885.svg" class="open"
+                                    alt="" />
+                                <img src="./assets/images/Group 881.svg" class="close" alt="">
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./article.html">Wifi Articles</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./forum.html">Forum</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./signin.html">Sign In</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation  -->
+    </header>
+
+    <main>
+        <!-- Article Views Detail  -->
+        <div class="article-views-detail article-single-detail">
+            <div class="container">
+                <!-- Article Full Views  -->
+                <div class="row">
+                    <!-- Article Lit  -->
+                    <div class="col-md-8">
+                        <div class="article-list">
+                            <h5>Latest News</h5>
+                            <h2>Articles</h2>
+                            <div class="back-btn-container">
+                                <span class="back-btn" onclick="goBack()"><i class="fa fa-chevron-left"
+                                        aria-hidden="true"></i> Back</span>
+                            </div>
+                            <div class="single-article-list">
+                                <div class="single-article-list-inner">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="single-article-list-image">
+                                                <img src="./assets/images/people-2605980_1920.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="single-article-detail">
+                                                <a href="./article_views.html">5 Ways To Improve Your Wi-Fi
+                                                    Signal At Home</a>
+                                                <div class="time-and-date">
+                                                    <div class="time">
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                            02:21PM</span>
+                                                    </div>
+                                                    <div class="date">
+                                                        <i class="fa fa-user" aria-hidden="true"></i><span>by John
+                                                            Doe</span>
+                                                    </div>
+                                                </div>
+                                                <p>A slow connection – or even no connection at all – can be incredibly
+                                                    frustrating when you’re trying to get things done at home. Which,
+                                                    thanks to COVID-19, many of us are desperately trying to do. An
+                                                    unreliable Wi-Fi connection makes tasks like Internet banking,
+                                                    research and online</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-article-list-inner">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="single-article-list-image">
+                                                <img src="./assets/images/iphone-410324_1920.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="single-article-detail">
+                                                <a href="./article_views.html">Wi-Fi 6 – What Is It And What
+                                                    Does This Mean For 5G?</a>
+                                                <div class="time-and-date">
+                                                    <div class="time">
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                            02:21PM</span>
+                                                    </div>
+                                                    <div class="date">
+                                                        <i class="fa fa-user" aria-hidden="true"></i><span>by John
+                                                            Doe</span>
+                                                    </div>
+                                                </div>
+                                                <p>A slow connection – or even no connection at all – can be incredibly
+                                                    frustrating when you’re trying to get things done at home. Which,
+                                                    thanks to COVID-19, many of us are desperately trying to do. An
+                                                    unreliable Wi-Fi connection makes tasks like Internet banking,
+                                                    research and online</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-article-list-inner">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="single-article-list-image">
+                                                <img src="./assets/images/entrepreneur-593361_1920.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="single-article-detail">
+                                                <a href="./article_views.html">Top 5 Reasons You Have Dead
+                                                    Spots In Your House
+                                                </a>
+                                                <div class="time-and-date">
+                                                    <div class="time">
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                            02:21PM</span>
+                                                    </div>
+                                                    <div class="date">
+                                                        <i class="fa fa-user" aria-hidden="true"></i><span>by John
+                                                            Doe</span>
+                                                    </div>
+                                                </div>
+                                                <p>A slow connection – or even no connection at all – can be incredibly
+                                                    frustrating when you’re trying to get things done at home. Which,
+                                                    thanks to COVID-19, many of us are desperately trying to do. An
+                                                    unreliable Wi-Fi connection makes tasks like Internet banking,
+                                                    research and online</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PLACE FOR ADD  -->
+                                <div class="add-place "></div>
+                                <!-- PLACE FOR ADD  -->
+
+                                <div class="single-article-list-inner">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="single-article-list-image">
+                                                <img src="./assets/images/people-2605980_1920.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="single-article-detail">
+                                                <a href="./article_views.html">5 Ways To Improve Your Wi-Fi
+                                                    Signal At Home</a>
+                                                <div class="time-and-date">
+                                                    <div class="time">
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                            02:21PM</span>
+                                                    </div>
+                                                    <div class="date">
+                                                        <i class="fa fa-user" aria-hidden="true"></i><span>by John
+                                                            Doe</span>
+                                                    </div>
+                                                </div>
+                                                <p>A slow connection – or even no connection at all – can be incredibly
+                                                    frustrating when you’re trying to get things done at home. Which,
+                                                    thanks to COVID-19, many of us are desperately trying to do. An
+                                                    unreliable Wi-Fi connection makes tasks like Internet banking,
+                                                    research and online</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-article-list-inner">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="single-article-list-image">
+                                                <img src="./assets/images/people-2605980_1920.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="single-article-detail">
+                                                <a href="./article_views.html">5 Ways To Improve Your Wi-Fi
+                                                    Signal At Home</a>
+                                                <div class="time-and-date">
+                                                    <div class="time">
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                            02:21PM</span>
+                                                    </div>
+                                                    <div class="date">
+                                                        <i class="fa fa-user" aria-hidden="true"></i><span>by John
+                                                            Doe</span>
+                                                    </div>
+                                                </div>
+                                                <p>A slow connection – or even no connection at all – can be incredibly
+                                                    frustrating when you’re trying to get things done at home. Which,
+                                                    thanks to COVID-19, many of us are desperately trying to do. An
+                                                    unreliable Wi-Fi connection makes tasks like Internet banking,
+                                                    research and online</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-article-list-inner">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="single-article-list-image">
+                                                <img src="./assets/images/people-2605980_1920.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="single-article-detail">
+                                                <a href="./article_views.html">5 Ways To Improve Your Wi-Fi
+                                                    Signal At Home</a>
+                                                <div class="time-and-date">
+                                                    <div class="time">
+                                                        <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                            02:21PM</span>
+                                                    </div>
+                                                    <div class="date">
+                                                        <i class="fa fa-user" aria-hidden="true"></i><span>by John
+                                                            Doe</span>
+                                                    </div>
+                                                </div>
+                                                <p>A slow connection – or even no connection at all – can be incredibly
+                                                    frustrating when you’re trying to get things done at home. Which,
+                                                    thanks to COVID-19, many of us are desperately trying to do. An
+                                                    unreliable Wi-Fi connection makes tasks like Internet banking,
+                                                    research and online</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Pagination  -->
+                            <div class="article-pagination">
+                                <div class="container">
+                                    <nav aria-label="...">
+                                        <ul class="pagination">
+                                            <li class="page-item disabled">
+                                                <a class="page-link" href="#" tabindex="-1"
+                                                    aria-disabled="true">Previous</a>
+                                            </li>
+                                            <li class="page-item active" aria-current="page"><a class="page-link"
+                                                    href="#">1
+                                                    <span class="sr-only">(current)</span></a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#">2</a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+
+                                            <li class="page-item"><a class="page-link" href="#">20</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#">Next</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <!-- Pagination  -->
+                        </div>
+                    </div>
+                    <!-- Article Lit  -->
+
+                    <!-- Recent Tabs  -->
+                    <div class="col-md-4">
+                        <div class="aticle-views-detail-right">
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab"
+                                        href="#nav-home" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">Recent</a>
+                                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab"
+                                        href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                        aria-selected="false">Trending</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                    aria-labelledby="nav-home-tab">
+                                    <div class="recent-tab-container">
+                                        <div class="recent-tab">
+                                            <div class="recent-img">
+                                                <img src="./assets/images/iphone-410324_1920.png" alt="">
+                                            </div>
+                                            <div class="recent-title">
+                                                <a href="#">How Has Wi-Fi Changed
+                                                    Our World?</a>
+                                                <div class="time">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                        02:21PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recent-tab">
+                                            <div class="recent-img">
+                                                <img src="./assets/images/student-849822_1920.png" alt="">
+                                            </div>
+                                            <div class="recent-title">
+                                                <a href="#">How Has Wi-Fi Changed
+                                                    Our World?</a>
+                                                <div class="time">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                        02:21PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recent-tab">
+                                            <div class="recent-img">
+                                                <img src="./assets/images/home-office-336377_1920.png" alt="">
+                                            </div>
+                                            <div class="recent-title">
+                                                <a href="#">How Has Wi-Fi Changed
+                                                    Our World?</a>
+                                                <div class="time">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                        02:21PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recent-tab">
+                                            <div class="recent-img">
+                                                <img src="./assets/images/iphone-410324_1920.png" alt="">
+                                            </div>
+                                            <div class="recent-title">
+                                                <a href="#">How Has Wi-Fi Changed
+                                                    Our World?</a>
+                                                <div class="time">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                        02:21PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab">
+                                    <div class="recent-tab-container">
+                                        <div class="recent-tab">
+                                            <div class="recent-img">
+                                                <img src="./assets/images/iphone-410324_1920.png" alt="">
+                                            </div>
+                                            <div class="recent-title">
+                                                <a href="#">How Has Wi-Fi Changed
+                                                    Our World?</a>
+                                                <div class="time">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                        02:21PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recent-tab">
+                                            <div class="recent-img">
+                                                <img src="./assets/images/student-849822_1920.png" alt="">
+                                            </div>
+                                            <div class="recent-title">
+                                                <a href="#">How Has Wi-Fi Changed
+                                                    Our World?</a>
+                                                <div class="time">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                        02:21PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recent-tab">
+                                            <div class="recent-img">
+                                                <img src="./assets/images/home-office-336377_1920.png" alt="">
+                                            </div>
+                                            <div class="recent-title">
+                                                <a href="#">How Has Wi-Fi Changed
+                                                    Our World?</a>
+                                                <div class="time">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                        02:21PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recent-tab">
+                                            <div class="recent-img">
+                                                <img src="./assets/images/iphone-410324_1920.png" alt="">
+                                            </div>
+                                            <div class="recent-title">
+                                                <a href="#">How Has Wi-Fi Changed
+                                                    Our World?</a>
+                                                <div class="time">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i><span>Aug 4,
+                                                        02:21PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Recent Tabs  -->
+
+                </div>
+                <!-- Article Full Views  -->
+
+
+            </div>
+        </div>
+        <!-- Article Views Detail  -->
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer-left">
+                        <p>Copyright © Entelek (Pty) Ltd 2020 All Rights Reserved</p>
+                    </div>
+                    <div class="footer-right">
+                        <a href="#" class="terms">Terms&Conditions</a>
+                        <a href="#" class="policy">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-small">
+            <div class="footer-top">
+                <div class="container">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms&Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p>Copyright © Entelek (Pty) Ltd 2020 All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery Js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap Js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <!-- counter up  -->
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <!-- counter up  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!--AOS Js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Owl Carouse js-->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Custom Js-->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
